@@ -8,6 +8,9 @@
 [![License: MIT-0](https://img.shields.io/badge/License-MIT--0-green.svg)](https://choosealicense.com/licenses/mit-0/)
 [![OpenClaw Skill](https://img.shields.io/badge/OpenClaw-Skill-purple.svg)](#)
 
+<br>
+
+[**English**](./README.md) | [**简体中文**](./README_zh-CN.md)
 </div>
 
 ---
@@ -34,10 +37,10 @@ This skill is composed of several working parts that seamlessly integrate with y
 
 | Component | Description | Role |
 | :--- | :--- | :--- |
-| 📜 **`SKILL.md`** | The "Brain" | Instructs the AI agent on how to interpret your queries, choose the right sorting strategy, and verify conference acceptances via the `comment` field. |
-| 🐍 **`arxiv_tool.py`** | The "Muscle" | A robust Python CLI tool that queries the arXiv API, handles HTTP streams, enforces rate limits, and downloads the PDFs. |
-| 🎯 **`target.csv`** | The "Filter" | A simple, user-defined list of top-tier venues you care about (e.g., `CVPR`, `ICCV`, `ICLR`). The LLM checks papers against this list. |
-| 🗄️ **`paper_list.csv`** | The "Memory" | Automatically generated in your workspace. Tracks downloaded ArXiv IDs to ensure you never download the same paper twice. |
+| **`SKILL.md`** | The "Brain" | Instructs the AI agent on how to interpret your queries, choose the right sorting strategy, and verify conference acceptances via the `comment` field. |
+| **`arxiv_tool.py`** | The "Muscle" | A robust Python CLI tool that queries the arXiv API, handles HTTP streams, enforces rate limits, and downloads the PDFs. |
+| **`target.csv`** | The "Filter" | A simple, user-defined list of top-tier venues you care about (e.g., `CVPR`, `ICCV`, `ICLR`). The LLM checks papers against this list. |
+| **`paper_list.csv`** | The "Memory" | Automatically generated in your workspace. Tracks downloaded ArXiv IDs to ensure you never download the same paper twice. |
 
 ---
 
